@@ -1,28 +1,3 @@
-
----
-
-# access2csv.py
-
-```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-access2csv — Exporteer Access (.mdb/.accdb) tabellen naar CSV via ODBC.
-
-Vereist:
-  - Windows + Microsoft Access ODBC-driver
-  - Python 3.9+
-  - pyodbc
-
-Exit codes:
-  0 = succes
-  2 = db/driver niet gevonden
-  3 = ODBC/verbinding fout
-  4 = geen tabellen gevonden
-  5 = schrijf-/bestandsfout
-"""
-
 import argparse
 import csv
 import os
