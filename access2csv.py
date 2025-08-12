@@ -8,7 +8,7 @@ from typing import Iterable, List, Tuple, Optional
 try:
     import pyodbc
 except ImportError:
-    print("pyodbc niet geïnstalleerd. Installeer met: pip install pyodbc", file=sys.stderr)
+    print("pyodbc niet geïnstalleerd. Installeer ajb met: pip install pyodbc", file=sys.stderr)
     sys.exit(2)
 
 VERSION = "1.0.0"
